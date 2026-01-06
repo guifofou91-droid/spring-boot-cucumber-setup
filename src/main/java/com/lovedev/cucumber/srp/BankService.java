@@ -1,6 +1,7 @@
 package com.lovedev.cucumber.srp;
 
 public class BankService {
+
     public long deposit (long amount, String accountNo) {
         //deposit amount
         return 0;
@@ -9,29 +10,5 @@ public class BankService {
     public long withDraw(long amount, String accountNo) {
         //withdraw amount
         return 0;
-    }
-
-    public void printPassbook() {
-        //update transaction info in passbook
-    }
-
-    public void getLoanInterestInfo(String loanType) {
-
-        if (loanType.equals("homeLoan")){
-            //do some job
-        }
-
-        if (loanType.equals("personaLoan")){
-            //do some job
-        }
-        if (loanType.equals("car")){
-            //do some job
-        }
-    }
-
-    public void sendOTP (String medium) {
-        if (medium.equals("email")) {
-            //write email related logic
-        }
     }
 }

@@ -1,7 +1,7 @@
 # FROM maven:3.8.2-jdk-8 # for Java 8
-FROM maven:3.9.11-openjdk-21
+FROM maven:3.9.11-eclipse-temurin-21
 
-WORKDIR /app
+WORKDIR /
 COPY . .
 RUN mvn clean install
 
